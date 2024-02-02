@@ -27,4 +27,5 @@ socket.addEventListener('nova mensagem', (msg) => {
     elementoMensagem.textContent = msg;
     elementoMensagem.classList.add('mensagem');
     chat.appendChild(elementoMensagem);
+    chat.scrollTop = chat.scrollHeight;
 });
