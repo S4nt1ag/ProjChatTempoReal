@@ -2,7 +2,7 @@ const botaoEnviar = document.getElementById('enviar');
 const caixaMensagem = document.getElementById('texto');
 const chat = document.getElementById('mensagens');
 
-const socket = io("https://proj-chat-tempo-real.vercel.app/");
+const socket = io("https://proj-chat-tempo-real.vercel.app");
 
 botaoEnviar.addEventListener('click', () => {
     if (caixaMensagem.value !== '') {
