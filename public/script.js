@@ -2,11 +2,7 @@ const botaoEnviar = document.getElementById('enviar');
 const caixaMensagem = document.getElementById('texto');
 const chat = document.getElementById('mensagens');
 
-<<<<<<< HEAD
-const socket = io("https://proj-chat-tempo-real.vercel.app");
-=======
 const socket = io();
->>>>>>> parent of 3bfa641 (att)
 
 botaoEnviar.addEventListener('click', () => {
     if (caixaMensagem.value !== '') {
