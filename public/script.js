@@ -11,6 +11,7 @@ botaoEnviar.addEventListener('click', () => {
     }
 })
 
+
 socket.addEventListener('nova mensagem', (msg) => {
     const elementoMensagem = document.createElement('li'); //<li></li>
     elementoMensagem.textContent = msg;
